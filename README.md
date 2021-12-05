@@ -1,0 +1,1 @@
+![alt text](https://github.com/dlamspl/security_content_package/raw/main/docs/img/fighter.png)
