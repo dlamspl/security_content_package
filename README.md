@@ -2,15 +2,12 @@
 
 
 ```
+git clone https://github.com/dlamspl/security_content_package
 git clone https://github.com/splunk/security_content/
 cd security_content
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
-cd ..
-git clone https://github.com/dlamspl/security_content_package
-cd ../security_content
 wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
 pip install splunk-packaging-toolkit-1.0.1.tar.gz 
 ```
@@ -39,4 +36,7 @@ mkdir ../security_content_package/dist/DA-ESS-ContentBareBones
 slim package -o ../security_content_package/dist/DA-ESS-ContentBareBones/ ../security_content_package/DA-ESS-ContentBareBones
 
 ```
+The packaged app can be found at ```/security_content_package/dist/DA-ESS-ContentBareBones/``` and is ready to uploaded to Splunk.
+
+# Customizing the app package
 
