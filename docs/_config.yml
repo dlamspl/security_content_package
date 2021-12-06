@@ -1,16 +1,16 @@
-title: Splunk Security Content
-email: research@splunk.com
+title: MyCompany Security Content
+email: research@myco.com
 description: >- # this means to ignore newlines until "baseurl:"
   This project gives you access to our repository of Analytic Stories,
   security guides that provide background on tactics, techniques and procedures (TTPs),
   mapped to the MITRE ATT&CK Framework, the Lockheed Martin Cyber Kill Chain, and CIS Controls.
   They include Splunk searches, machine learning algorithms and
   Splunk Phantom playbooks (where available)—all designed to work together to detect, investigate, and respond to threats.
-name: Splunk Threat Research Team (STRT)
-url: "https://splunkresearch.com"
+name: MyCo Threat Research Team (STRT)
+url: "https://dlamspl.github.io"
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://splunkresearch.com" # the base hostname & protocol for your site, e.g. http://example.com
-repository: splunk/security_content
+url: "https://dlamspl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: dlamspl/security_content_package/
 logo: "/static/logo.png"
 #teaser: "/static/logo.png"
 masthead_title: "Security Content"
