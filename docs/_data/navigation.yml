@@ -31,6 +31,8 @@ detections:
 stories:
   - title: "Use Case"
     children:
+      - title: Adversary Tactics
+        url: /stories/adversary_tactics/
 playbooks:
   - title: "Type"
     children:
