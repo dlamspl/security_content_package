@@ -10,7 +10,7 @@ name: MyCo Threat Research Team (STRT)
 url: "https://dlamspl.github.io"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://dlamspl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: dlamspl/security_content_package/
+repository: dlamspl/security_content_package
 logo: "/static/logo.png"
 #teaser: "/static/logo.png"
 masthead_title: "Security Content"
