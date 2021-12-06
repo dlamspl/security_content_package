@@ -1,0 +1,136 @@
+Notes
+git push ssh://git@github.com/dlamspl/security_content_package
+
+Step Four: CIM + Event Size Introspection Running
+
+Microsoft Sysmon search 
+(index="win" sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational")  | head 10000 | eval SSELENGTH = len(_raw)  | eventstats range(_time) as SSETIMERANGE | fields SSELENGTH SSETIMERANGE tag dest process process_id user action process_exec process_guid parent_process parent_process_exec parent_process_id parent_process_guid process_hash parent_process_hash | fieldsummary
+
+
+Questions
+How is the mitre_attack_lookup updated ? 
+
+rjFNCupnLuEFQOfvs6w
+
+Processes.user Processes.process_name
+
+| tstats `security_content_summariesonly` count min(_time) as firstTime max(_time) as lastTime from datamodel=Endpoint.Processes where `process_procdump` (Processes.process=*-ma* OR Processes.process=*-mm*) Processes.process=*lsass* Processes.user=$user$  by Processes.user Processes.process_name Processes.process Processes.original_file_name Processes.dest
+
+Part 1 
+What rules do I enable ?
+Follow attack navigator with available sources , popular techniques and available content
+
+Part 2
+I want a custom one ! 
+
+Part 3 
+What do I have ?
+
+Part 4 
+Packaging ways 
+
+Part 5 
+Testing 
+
+
+
+
+
+
+
+https://attack.mitre.org/tactics/TA0043/
+Reconnaissance TA0043
+
+https://attack.mitre.org/techniques/T1595/
+Active Scanning T1595
+
+https://attack.mitre.org/techniques/T1046/
+Network Service Scanning T1046
+
+
+Detection
+https://attack.mitre.org/datasources/DS0029/
+
+
+1. Detect when a single source host is accessing multiple destinations IPs over short period of time (1 hour)
+
+2. Detect when a single source host is accessing multiple destination ports on a single IP over a short period of time (1 hour)
+
+
+1. Use dynamic thresholds
+2. DMA only
+
+Fields required 
+All_Traffic.dest  (no unknowns)
+All_Traffic.dest_port
+All_Traffic.src  (no unknowns)
+
+
+Stage 1: Simple rule
+
+| tstats count dc(All_Traffic.dest_port) as port_count from datamodel=Network_Traffic.All_Traffic where All_Traffic.dest=108.61.56.35 by _time, All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
+
+
+
+| tstats count from datamodel=Network_Traffic.All_Traffic by _time, All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
+|bucket _time span=1h 
+|stats dc(All_Traffic.dest_port) as port_count, values(All_Traffic.dest_port) by _time, All_Traffic.src ,All_Traffic.dest
+|where port_count> 5
+Consider here to have unknowns and src - excluded
+
+
+
+Stage 2: More dynamic 
+
+| tstats `security_content_summariesonly` count from datamodel=Network_Traffic.All_Traffic by _time, All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
+|bucket _time span=1h 
+|stats dc(All_Traffic.dest_port) as port_count values(All_Traffic.dest_port) by _time, All_Traffic.src ,All_Traffic.dest
+|eventstats avg(port_count) as avg_port stdev(port_count) as std_port by _time
+|where std_port> 0 AND port_count>4*std_port
+
+
+Stage 3: ML
+| tstats `summariesonly` count from datamodel=Network_Traffic.All_Traffic by _time, All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
+|bucket _time span=1h 
+|stats dc(All_Traffic.dest_port) as port_count, values(All_Traffic.dest_port) by _time, All_Traffic.src ,All_Traffic.dest
+| fit DensityFunction port_count  dist=norm AS IsOutlier
+|where  IsOutlier=1
+
+USE ES applu macro 
+
+
+
+
+| tstats count from datamodel=Network_Traffic.All_Traffic by _time, All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
+|bucket _time span=1h 
+|stats dc(All_Traffic.dest_port) as port_count values(All_Traffic.dest_port) as ports by _time, All_Traffic.src ,All_Traffic.dest
+|stats avg(port_count) as avg_port_count stdev(port_count) as stdev_port_count values(ports) by _time, All_Traffic.src ,All_Traffic.dest
+
+
+
+| tstats count from datamodel=Network_Traffic.All_Traffic by _time, All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
+|bucket _time span=1h 
+|stats dc(All_Traffic.dest_port) as port_count values(All_Traffic.dest_port) by _time, All_Traffic.src ,All_Traffic.dest
+
+|eventstats avg(port_count) as avg_port stdev(port_count) as std_port by _time
+|table _time, std_port, avg_port
+
+
+
+
+
+https://18.119.166.90:8000/en-US/app/Splunk_Security_Essentials/analyze_es_risk
+MITRE ATT&CK Tactics Dashboard must change to the below
+
+index=risk * 
+| table * 
+| rex field=mitre_tactic_combined "- (?<mitre_tactic_name>.*)" 
+| stats count by annotations.mitre_attack.mitre_tactic 
+| rename annotations.mitre_attack.mitre_tactic as  mitre_tactic_name
+| `Init_All_MITRE_Rows(mitre_tactic_name, count)` 
+| stats sum(count) as count by mitre_tactic_name 
+| `Sort_MITRE_Rows(mitre_tactic_name)` 
+| streamstats count as order 
+| eval mitre_tactic_name = substr("0" . order, len("0" . order) - 1, 3) . ". " . mitre_tactic_name 
+| fields - order 
+| stats values(count) as count by mitre_tactic_name
