@@ -47,7 +47,14 @@ This project gives you access to our repository of Analytic Stories that are sec
 Below is a snapshot in time of what technique we currently have some detection coverage for. The darker the shade of blue the more detections we have for this particular technique.
 
 [![](mitre-map/coverage.png)](https://mitremap.splunkresearch.com/)
-[![](https://mitre-attack.github.io/attack-navigator/enterprise/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fmitre%2Fattack-navigator%2Fmaster%2Flayers%2Fdata%2Fsamples%2FBear_APT.json&tabs=false&selecting_techniques=false)](https://mitremap.splunkresearch.com/)
+
+
+
+## Iframe
+
+<figure class="video_container">
+  <iframe src="https://mitre-attack.github.io/attack-navigator/enterprise/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fmitre%2Fattack-navigator%2Fmaster%2Flayers%2Fdata%2Fsamples%2FBear_APT.json&tabs=false&selecting_techniques=false" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## View Our Content 🔎
 
