@@ -1,19 +1,19 @@
-title: MyCompany Security Content
-email: research@myco.com
+title: Buttercup Security Content
+email: research@Buttercup
 description: >- # this means to ignore newlines until "baseurl:"
   This project gives you access to your repository of Analytic Stories,
   security guides that provide background on tactics, techniques and procedures (TTPs),
   mapped to the MITRE ATT&CK Framework, the Lockheed Martin Cyber Kill Chain, and CIS Controls.
   They include Splunk searches, machine learning algorithms and
   Splunk Phantom playbooks (where available)—all designed to work together to detect, investigate, and respond to threats.
-name: MyCo Threat Research Team (STRT)
+name: Buttercup Threat Research Team (STRT)
 url: "https://dlamspl.github.io"
 baseurl: "/security_content_package/" # the subpath of your site, e.g. /blog
 url: "https://dlamspl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: dlamspl/security_content_package
 logo: "/static/logo.png"
 #teaser: "/static/logo.png"
-masthead_title: "Security Content"
+masthead_title: "Buttercup Security Content"
 words_per_minute: 200
 search: true
 search_full_content: true
@@ -99,7 +99,7 @@ defaults:
   # _docs
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
