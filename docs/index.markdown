@@ -53,7 +53,7 @@ Below is a snapshot in time of what technique we currently have some detection c
 ## Iframe
 
 <figure class="video_container">
-  <iframe src="https://mitre-attack.github.io/attack-navigator/enterprise/#layerURL=https://raw.githubusercontent.com/dlamspl/security_content_package/main/docs/mitre-map/coverage.json&tabs=false&selecting_techniques=false" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://mitre-attack.github.io/attack-navigator/enterprise/#layerURL=https://raw.githubusercontent.com/dlamspl/security_content_package/main/docs/mitre-map/coverage.json&tabs=false&selecting_techniques=false" frameborder="0" allowfullscreen="true" width="1000" height="500"> </iframe>
 </figure>
 
 ## View Our Content 🔎
