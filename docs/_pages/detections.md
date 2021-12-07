@@ -3,7 +3,7 @@ title: "Detections"
 layout: categories
 author_profile: false
 permalink: /detections/
-collection: stories
+collection: detections
 classes: wide
 sidebar:
   nav: "detections"
