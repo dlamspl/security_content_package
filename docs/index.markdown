@@ -37,7 +37,7 @@ feature_row:
 
 {% include feature_row %}
 
-# Welcome to Splunk Security Content
+# Welcome to your custom Splunk Security Content
 
 This project gives you access to our repository of Analytic Stories that are security guides which provide background on TTPs, mapped to the MITRE framework, the Lockheed Martin Kill Chain, and CIS controls. They include Splunk searches, machine-learning algorithms, and Splunk Phantom playbooks (where available)—all designed to work together to detect, investigate, and respond to threats.
 
@@ -48,11 +48,11 @@ Below is a snapshot in time of what technique we currently have some detection c
 
 [![](mitre-map/coverage.png)](https://mitremap.splunkresearch.com/)
 
-## View Our Content 🔎
+## View Your Content 🔎
 
-* [Analytic Stories](/stories)
-* [Detections](/detections)
-* [Playbooks](/playbooks)
+* [Analytic Stories](/security_content_package/stories)
+* [Detections](/security_content_package/detections)
+* [Playbooks](/security_content_package/playbooks)
 
 If you prefer working with the command line, check out our [API](https://docs.splunkresearch.com/?version=latest):
 
