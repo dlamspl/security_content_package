@@ -591,6 +591,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -1302,6 +1303,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -2013,6 +2015,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -2724,6 +2727,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -3435,6 +3439,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -4146,6 +4151,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -4857,6 +4863,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -5568,6 +5575,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -6279,6 +6287,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -6990,6 +6999,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -7701,6 +7711,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -8412,6 +8423,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -9123,6 +9135,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -9834,6 +9847,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -10545,6 +10559,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -11256,6 +11271,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -11967,6 +11983,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -12678,6 +12695,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -13389,6 +13407,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -14100,6 +14119,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -14811,6 +14831,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -15522,6 +15543,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -16233,6 +16255,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -16944,6 +16967,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -17655,6 +17679,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -18366,6 +18391,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -19077,6 +19103,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -19788,6 +19815,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -20499,6 +20527,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -21210,6 +21239,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -21921,6 +21951,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -22632,6 +22663,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -23343,6 +23375,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -24054,6 +24087,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -24765,6 +24799,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -25476,6 +25511,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -26187,6 +26223,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -26898,6 +26935,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -27609,6 +27647,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -28320,6 +28359,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -29031,6 +29071,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -29742,6 +29783,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -30453,6 +30495,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -31164,6 +31207,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -31875,6 +31919,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -32586,6 +32631,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -33297,6 +33343,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -34008,6 +34055,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -34719,6 +34767,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -35430,6 +35479,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -36141,6 +36191,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -36852,6 +36903,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -37563,6 +37615,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -38274,6 +38327,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -38985,6 +39039,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -39696,6 +39751,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -40407,6 +40463,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -41118,6 +41175,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -41829,6 +41887,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -42540,6 +42599,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -43251,6 +43311,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -43962,6 +44023,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -44673,6 +44735,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -45384,6 +45447,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -46095,6 +46159,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -46806,6 +46871,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -47517,6 +47583,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -48228,6 +48295,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -48939,6 +49007,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -49650,6 +49719,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -50361,6 +50431,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -51072,6 +51143,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -51783,6 +51855,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -52494,6 +52567,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -53205,6 +53279,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -53916,6 +53991,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -54627,6 +54703,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -55338,6 +55415,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -56049,6 +56127,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -56760,6 +56839,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -57471,6 +57551,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -58182,6 +58263,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -58893,6 +58975,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -59604,6 +59687,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -60315,6 +60399,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -61026,6 +61111,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -61737,6 +61823,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -62448,6 +62535,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -63159,6 +63247,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -63870,6 +63959,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -64581,6 +64671,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -65292,6 +65383,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -66003,6 +66095,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -66714,6 +66807,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -67425,6 +67519,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -68136,6 +68231,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -68847,6 +68943,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -69558,6 +69655,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -70269,6 +70367,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -70980,6 +71079,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -71691,6 +71791,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -72402,6 +72503,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -73113,6 +73215,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -73824,6 +73927,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -74535,6 +74639,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -75246,6 +75351,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -75957,6 +76063,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -76668,6 +76775,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -77379,6 +77487,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -78090,6 +78199,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -78801,6 +78911,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -79512,6 +79623,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -80223,6 +80335,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -80934,6 +81047,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -81645,6 +81759,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -82356,6 +82471,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -83067,6 +83183,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -83778,6 +83895,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -84489,6 +84607,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -85200,6 +85319,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -85911,6 +86031,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -86622,6 +86743,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -87333,6 +87455,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -88044,6 +88167,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -88755,6 +88879,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -89466,6 +89591,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -90177,6 +90303,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -90888,6 +91015,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -91599,6 +91727,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -92310,6 +92439,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -93021,6 +93151,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -93732,6 +93863,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -94443,6 +94575,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -95154,6 +95287,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -95865,6 +95999,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -96576,6 +96711,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -97287,6 +97423,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -97998,6 +98135,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -98709,6 +98847,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -99420,6 +99559,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -100131,6 +100271,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -100842,6 +100983,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -101553,6 +101695,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -102264,6 +102407,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -102975,6 +103119,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -103686,6 +103831,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -104397,6 +104543,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -105108,6 +105255,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -105819,6 +105967,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -106530,6 +106679,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -107241,6 +107391,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -107952,6 +108103,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -108663,6 +108815,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -109374,6 +109527,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -110085,6 +110239,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -110796,6 +110951,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -111507,6 +111663,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -112218,6 +112375,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -112929,6 +113087,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -113640,6 +113799,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -114351,6 +114511,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -115062,6 +115223,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -115773,6 +115935,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -116484,6 +116647,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -117195,6 +117359,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -117906,6 +118071,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -118617,6 +118783,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -119328,6 +119495,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -120039,6 +120207,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -120750,6 +120919,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -121461,6 +121631,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -122172,6 +122343,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -122883,6 +123055,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -123594,6 +123767,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -124305,6 +124479,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -125016,6 +125191,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -125727,6 +125903,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -126438,6 +126615,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -127149,6 +127327,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -127860,6 +128039,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -128571,6 +128751,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -129282,6 +129463,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -129993,6 +130175,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -130704,6 +130887,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -131415,6 +131599,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -132126,6 +132311,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -132837,6 +133023,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -133548,6 +133735,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -134259,6 +134447,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -134970,6 +135159,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -135681,6 +135871,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -136392,6 +136583,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -137103,6 +137295,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -137814,6 +138007,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -138525,6 +138719,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -139236,6 +139431,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -139947,6 +140143,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -140658,6 +140855,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -141369,6 +141567,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -142080,6 +142279,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -142791,6 +142991,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -143502,6 +143703,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -144213,6 +144415,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -144924,6 +145127,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -145635,6 +145839,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -146346,6 +146551,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -147057,6 +147263,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -147768,6 +147975,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -148479,6 +148687,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -149190,6 +149399,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -149901,6 +150111,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -150612,6 +150823,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -151323,6 +151535,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -152034,6 +152247,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -152745,6 +152959,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -153456,6 +153671,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -154167,6 +154383,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -154878,6 +155095,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -155589,6 +155807,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -156300,6 +156519,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -157011,6 +157231,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -157722,6 +157943,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -158433,6 +158655,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -159144,6 +159367,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -159855,6 +160079,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -160566,6 +160791,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -161277,6 +161503,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -161988,6 +162215,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -162699,6 +162927,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -163410,6 +163639,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -164121,6 +164351,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -164832,6 +165063,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -165543,6 +165775,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -166254,6 +166487,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -166965,6 +167199,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -167676,6 +167911,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -168387,6 +168623,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -169098,6 +169335,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -169809,6 +170047,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -170520,6 +170759,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -171231,6 +171471,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -171942,6 +172183,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -172653,6 +172895,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -173364,6 +173607,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -174075,6 +174319,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -174786,6 +175031,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -175497,6 +175743,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -176208,6 +176455,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -176919,6 +177167,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -177630,6 +177879,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -178341,6 +178591,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -179052,6 +179303,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -179763,6 +180015,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -180474,6 +180727,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -181185,6 +181439,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -181896,6 +182151,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -182607,6 +182863,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -183318,6 +183575,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -184029,6 +184287,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -184740,6 +184999,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -185451,6 +185711,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -186162,6 +186423,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -186873,6 +187135,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -187584,6 +187847,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -188295,6 +188559,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -189006,6 +189271,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -189717,6 +189983,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -190428,6 +190695,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -191139,6 +191407,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -191850,6 +192119,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -192561,6 +192831,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -193272,6 +193543,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -193983,6 +194255,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -194694,6 +194967,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -195405,6 +195679,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -196116,6 +196391,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -196827,6 +197103,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -197538,6 +197815,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -198249,6 +198527,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -198960,6 +199239,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -199671,6 +199951,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -200382,6 +200663,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -201093,6 +201375,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -201804,6 +202087,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -202515,6 +202799,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -203226,6 +203511,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -203937,6 +204223,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -204648,6 +204935,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -205359,6 +205647,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -206070,6 +206359,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -206781,6 +207071,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -207492,6 +207783,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -208203,6 +208495,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -208914,6 +209207,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -209625,6 +209919,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -210336,6 +210631,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -211047,6 +211343,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -211758,6 +212055,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -212469,6 +212767,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -213180,6 +213479,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -213891,6 +214191,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -214602,6 +214903,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -215313,6 +215615,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -216024,6 +216327,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -216735,6 +217039,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -217446,6 +217751,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -218157,6 +218463,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -218868,6 +219175,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -219579,6 +219887,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -220290,6 +220599,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -221001,6 +221311,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -221712,6 +222023,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -222423,6 +222735,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -223134,6 +223447,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -223845,6 +224159,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -224556,6 +224871,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -225267,6 +225583,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -225978,6 +226295,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -226689,6 +227007,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -227400,6 +227719,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -228111,6 +228431,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -228822,6 +229143,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -229533,6 +229855,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -230244,6 +230567,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -230955,6 +231279,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -231666,6 +231991,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -232377,6 +232703,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -233088,6 +233415,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -233799,6 +234127,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -234510,6 +234839,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -235221,6 +235551,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -235932,6 +236263,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -236643,6 +236975,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -237354,6 +237687,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -238065,6 +238399,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -238776,6 +239111,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -239487,6 +239823,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -240198,6 +240535,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -240909,6 +241247,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -241620,6 +241959,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -242331,6 +242671,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -243042,6 +243383,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -243753,6 +244095,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -244464,6 +244807,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -245175,6 +245519,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -245886,6 +246231,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -246597,6 +246943,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -247308,6 +247655,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -248019,6 +248367,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -248730,6 +249079,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -249441,6 +249791,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -250152,6 +250503,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -250863,6 +251215,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -251574,6 +251927,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -252285,6 +252639,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -252996,6 +253351,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -253707,6 +254063,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -254418,6 +254775,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -255129,6 +255487,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -255840,6 +256199,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -256551,6 +256911,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -257262,6 +257623,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -257973,6 +258335,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -258684,6 +259047,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -259395,6 +259759,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -260106,6 +260471,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -260817,6 +261183,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -261528,6 +261895,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -262239,6 +262607,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -262950,6 +263319,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -263661,6 +264031,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -264372,6 +264743,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -265083,6 +265455,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -265794,6 +266167,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -266505,6 +266879,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -267216,6 +267591,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -267927,6 +268303,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -268638,6 +269015,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
@@ -269349,6 +269727,7 @@
         {
             "techniqueID": "T1003.002",
             "score": 1,
+            "enabled": "true",
             "comment": "https://github.com/splunk/security_content/blob/develop/detections/../security_content_package/detections/network/network_scan_dynamic.yml"
         },
         {},
