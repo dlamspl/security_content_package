@@ -269481,7 +269481,15 @@
             "#096ed7"
         ],
         "minValue": 0,
-        "maxValue": 1
+        "maxValue": 10
+    },
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "sum",
+        "showID": "false",
+        "showName": "true",
+        "showAggregateScores": "true",
+        "countUnscored": "false"
     },
     "filters": {
         "platforms": [
