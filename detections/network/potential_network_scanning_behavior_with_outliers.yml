@@ -31,7 +31,6 @@ tags:
   mitre_attack_id:
   - T1595
   - T1046
-  - TA0043
   product:
   - Splunk Enterprise
   - Splunk Enterprise Security

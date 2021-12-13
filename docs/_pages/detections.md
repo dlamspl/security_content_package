@@ -11,4 +11,4 @@ sidebar:
 
 | Name    | Technique | Type       |
 | --------| --------- |------------|
-| [Network scan dynamic](/network/network_scan_dynamic/) | [Security Account Manager](/tags/#security-account-manager) | TTP |
+| [Potential Network Scanning behavior with outliers](/network/potential_network_scanning_behavior_with_outliers/) | [Active Scanning](/tags/#active-scanning), [Network Service Scanning](/tags/#network-service-scanning) | TTP |

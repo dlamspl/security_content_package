@@ -12,12 +12,12 @@ main:
 detections:
   - title: "Tactic"
     children:
-      - title: Credential Access
-        url: /detections/credential_access/
+      - title: Discovery
+        url: /detections/discovery/
+      - title: Reconnaissance
+        url: /detections/reconnaissance/
   - title: "Datamodel"
     children:
-      - title: Endpoint
-        url: /detections/endpoint/
       - title: Network_Traffic
         url: /detections/network_traffic/
   - title: "Product"
