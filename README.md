@@ -100,15 +100,18 @@ tags:
 
 
 # Generating docs
+```
+
+
 cd ../security_content_package/
 git clone https://github.com/mitre/cti.git 
 cd ../security_content/
 python bin/doc_gen.py -p ../security_content_package -o ../security_content_package/docs
+```
 
 To view the docs in your local environment follow [this](https://jekyllrb.com/) guide
 
-Or use Gitpages! Setup gitpages to point to your repository docs 
-https://pages.github.com/
+Or use Gitpages! Setup gitpages to point to your repository docs https://pages.github.com/
 
 
 

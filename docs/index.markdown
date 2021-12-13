@@ -43,17 +43,15 @@ This project gives you access to our repository of Analytic Stories that are sec
 
 [Try in Splunk Security Cloud](https://www.splunk.com/en_us/cyber-security.html){: .btn .btn--success}
 
-## [Splunk Detection Coverage](https://mitremap.splunkresearch.com/) 🗺
+## [Detection Coverage](https://mitremap.splunkresearch.com/) 🗺
 Below is a snapshot in time of what technique we currently have some detection coverage for. The darker the shade of blue the more detections we have for this particular technique.
 
 [![](mitre-map/coverage.png)](https://mitremap.splunkresearch.com/)
 
-
-
 ## My Content Coverage
 
 <figure class="video_container">
-  <iframe src="https://mitre-attack.github.io/attack-navigator/enterprise/#layerURL=https://raw.githubusercontent.com/dlamspl/security_content_package/main/docs/mitre-map/coverage.json&tabs=false&selecting_techniques=false" frameborder="0" allowfullscreen="true" width="1280" height="900"> </iframe>
+  <iframe src="https://mitre-attack.github.io/attack-navigator/enterprise/#layerURL=https://raw.githubusercontent.com/dlamspl/security_content_package/content_package_example/docs/mitre-map/coverage.json&tabs=false&selecting_techniques=false" frameborder="0" allowfullscreen="true" width="1280" height="900"> </iframe>
 </figure>
 
 ## View Our Content 🔎

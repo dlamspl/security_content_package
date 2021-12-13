@@ -10,4 +10,4 @@ sidebar:
 
 | Name        | Technique   | Tactic       |
 | ----------- | ----------- |--------------|
-| [Suspicious activity detection](/stories/suspicious_activity_detection/) | [Security Account Manager](/tags/#security-account-manager) | [Credential Access](/tags/#credential-access) |
+| [Suspicious Activity](/stories/suspicious_activity/) | [Active Scanning](/tags/#active-scanning), [Network Service Scanning](/tags/#network-service-scanning) | [Reconnaissance](/tags/#reconnaissance) |
