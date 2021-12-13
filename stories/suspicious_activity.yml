@@ -1,0 +1,19 @@
+name: Suspicious Activity
+id: f84b9e68-5bde-11ec-9fe2-acde48001122
+version: 1
+date: '2021-12-13'
+author: dlam
+description: Provides various detection spawing MITRE tactics. Focused on providing detections of TTPs
+narrative: Suspicious Activity might provide more false positives than a specific attack detection but can be generic enough to be utilized to detect abnormal patterns. 
+references:
+- https://www.destroyallsoftware.com/talks/wat
+tags:
+  analytic_story:
+  - Suspicious Activity
+  category:
+  - Adversary Tactics
+  product:
+  - Splunk Enterprise
+  - Splunk Enterprise Security
+  - Splunk Cloud
+  usecase: Advanced Threat Detection

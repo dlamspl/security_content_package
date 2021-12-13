@@ -1,0 +1,60 @@
+name: Potential Network Scanning behavior with outliers
+id: 4595c7de-5bdf-11ec-b3c1-acde48001122
+version: 1
+date: '2021-12-13'
+author: dlam
+type: TTP
+datamodel:
+- Network_Traffic
+description: Detect when a single source host is accessing multiple destination ports on a single IP over a short period of time (1 hour). We look at the baseline for the specific host and destination to come up with a baseline and detect potential outlier from there.
+search: '| tstats `security_content_summariesonly` count dc(All_Traffic.dest_port) as dc_port_count from datamodel=Network_Traffic.All_Traffic where All_Traffic.src!="unknown" All_Traffic.dest!="unknown" groupby _time span=1d , All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
+| `drop_dm_object_name("All_Traffic")`
+| streamstats sum(dc_port_count) as total_port_count by _time, src, dest
+| streamstats sum(total_port_count) as total_port_count avg(total_port_count) as avg_count stdev(total_port_count) as stdev_count by _time, src, dest
+| stats sum(dc_port_count) as total_port_count  avg(avg_count) as avg_count stdev(stdev_count) as stdev_count by _time, src, dest
+|eval threshold= 7
+ | eval lowerBound=(avg_count-stdev_count*threshold) 
+ | eval upperBound=(avg_count+stdev_count*threshold) 
+ | eval isOutlier=if("total_port_count" > upperBound , 1, 0)|where isOutlier=1 | `potential_network_scanning_behavior_with_outliers_filter`'
+how_to_implement: You need to be ingesting network data and have them mapped to CIM. Network traffic data should capture traffic in your network segments of interest.
+known_false_positives: There are some false positives as many devices perform discovery and it would like scanning.
+references:
+-  https://attack.mitre.org/datasources/DS0029/
+tags:
+  analytic_story:
+  - Suspicious Activity
+  dataset:
+  - https://media.githubusercontent.com/media/splunk/attack_data/master/datasets/attack_techniques/T1048.003/long_dns_queries/windows-sysmon.log
+  kill_chain_phases:
+  - Reconnaissance
+  - Lateral Movement
+  mitre_attack_id:
+  - T1595
+  - T1046
+  - TA0043
+  product:
+  - Splunk Enterprise
+  - Splunk Enterprise Security
+  - Splunk Cloud
+  required_fields:
+  - _time
+  - All_Traffic.dest_port
+  - All_Traffic.dest
+  - All_Traffic.src
+  security_domain: network
+  impact: 10
+  confidence: 10
+  # (impact * confidence)/100
+  risk_score: 20
+  context: 
+  message: Potential network scanning detected from $src$ to $dest$ with $total_port_count$ ports within an hour 
+  observable:
+  - name: src
+    type: system
+    role:
+    - Attacker
+  - name: dest
+    type: system
+    role:
+    - Victim
+  
