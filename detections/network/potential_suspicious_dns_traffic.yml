@@ -1,0 +1,64 @@
+name: Potential suspicious DNS traffic 
+id: 1daef212-09c8-11ed-9e70-acde48001122
+version: 1
+date: '2022-07-22'
+author: dlam
+type: TTP
+datamodel:
+- Endpoint
+- Network_Resolution
+description: This detection is analyzing the DNS requests and tries to identify suspicious communications 
+search: '| tstats `security_content_summariesonly` 
+count from datamodel=Network_Resolution 
+where NOT DNS.message_type IN("Pointer","PTR") AND (DNS.src=10.0.0.0/8 OR DNS.src=192.168.0.0/16 OR DNS.src=172.16.0.0/12 )
+by _time span=1m DNS.src
+| `drop_dm_object_name("DNS")`
+|search count>50
+| bucket _time AS bucket span=10m
+| eventstats avg(count) as avg_queries stdev(count) AS stdev_queries p50(count) AS p50_queries p90(count) AS p90_queries by bucket src
+| eval z_score=(count-avg_queries)/stdev_queries
+|table _time src  count avg_queries bucket stdev_queries p50_queries p90_queries z_score
+|search z_score>0
+|fit DensityFunction z_score AS IsOutlier
+|search IsOutlier>0 | `potential_suspicious_dns_traffic__filter`'
+how_to_implement: You need to be ingesting network resolution data and have them mapped to CIM. Network resolution can be captured from the wire, DNS server or the endpoint
+known_false_positives: Some services or applications exhibit suspicious DNS traffic
+references:
+-  https://attack.mitre.org/techniques/T1071/004/
+tags:
+  analytic_story:
+  - Suspicious Network Activity - Behavior
+  dataset:
+  - https://media.githubusercontent.com/media/splunk/attack_data/master/datasets/attack_techniques/T1048.003/long_dns_queries/windows-sysmon.log
+  kill_chain_phases:
+  - Exfiltration
+  mitre_attack_id:
+  - T1048
+  - T1048.001
+  - T1048.002
+  - T1048.003
+  product:
+  - Splunk Enterprise
+  - Splunk Enterprise Security
+  - Splunk Cloud
+  required_fields:
+  - _time
+  - src
+  security_domain: network
+  impact: 10
+  confidence: Medium
+  severity: medium
+  title: Suspicious DNS activity from $src$
+  message: Host $src$ potentially abusing DNS
+  # (impact * confidence)/100
+  risk_score: 5
+  observable:
+  - name: src
+    type: system
+    role:
+    - Victim
+  - name: src
+    type: Endpoint
+    role:
+    - Victim  
+  
