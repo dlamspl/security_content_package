@@ -1,0 +1,19 @@
+name: Suspicious Network Activity - Behavior
+id: 3adcded0-09b9-11ed-8207-acde48001122
+version: 1
+date: '2022-07-22'
+author: dlam
+description: This analytic story contains several ML based or statistical searches to identify anomalies based on network traffic
+narrative: Network activity is a very valuable source of data which can allow a defender to detect potentially suspicious or malicious activty. This package contains ML based analytics for common network protocols and network traffic.
+references:
+- https://attack.mitre.org/datasources/DS0029/
+tags:
+  analytic_story:
+  - Suspicious Network Activity - ML
+  category:
+  - Adversary Tactics
+  product:
+  - Splunk Enterprise
+  - Splunk Enterprise Security
+  - Splunk Cloud
+  usecase: Advanced Threat Detection
