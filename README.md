@@ -11,6 +11,7 @@ git clone https://github.com/splunk/security_content/
 cd security_content
 virtualenv venv
 source venv/bin/activate
+git checkout main
 pip install -r ../security_content_package/requirements.txt
 wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
 pip install splunk-packaging-toolkit-1.0.1.tar.gz 
