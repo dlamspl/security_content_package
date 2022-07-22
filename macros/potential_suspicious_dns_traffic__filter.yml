@@ -1,0 +1,3 @@
+definition: search src!=8.8.8.8
+description: This macro is intended to serve as a filter for false positive DNS requests
+name: potential_suspicious_dns_traffic_filter
