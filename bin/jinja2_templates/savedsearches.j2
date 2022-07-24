@@ -9,7 +9,7 @@
 
 {% for detection in detections %}
 {% if (detection.type == 'TTP' or detection.type == 'Anomaly' or detection.type == 'Hunting' or detection.type == 'Correlation') %}
-[CUSTOM - {{ detection.name }} - Rule]
+[ESCU - {{ detection.name }} - Rule]
 action.escu = 0
 action.escu.enabled = 1
 description = {{ detection.description }}
@@ -49,6 +49,7 @@ action.escu.analytic_story = {{ detection.tags.analytic_story | tojson }}
 action.risk = 1
 action.risk.param._risk_message = {{ detection.risk_message }}
 action.risk.param._risk = {{ detection.risk | tojson }}
+action.risk.param._risk_score = 0
 action.risk.param.verbose = 0
 {% endif %}
 {% else %}
