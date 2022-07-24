@@ -1,4 +1,4 @@
-name: Potential suspicious DNS traffic 
+name: Potential suspicious DNS tunneling 
 id: 1daef212-09c8-11ed-9e70-acde48001122
 version: 1
 date: '2022-07-22'
@@ -7,20 +7,31 @@ type: TTP
 datamodel:
 - Endpoint
 - Network_Resolution
-description: This detection is analyzing the DNS requests and tries to identify suspicious communications 
+description: This detection is analyzing the DNS requests and tries to identify suspicious communications indicating DNS tunneling. We are trying to minimize false positives by utilizing the alexa whitelist in addition to removing potentially low counts from the outliers.
 search: '| tstats `security_content_summariesonly` 
-count from datamodel=Network_Resolution 
-where NOT DNS.message_type IN("Pointer","PTR") AND (DNS.src=10.0.0.0/8 OR DNS.src=192.168.0.0/16 OR DNS.src=172.16.0.0/12 )
+count values(DNS.query) as query values(DNS.dest) as dest from datamodel=Network_Resolution 
+where NOT DNS.message_type IN("Pointer","PTR") AND (DNS.src=10.0.0.0/8 OR DNS.src=192.168.0.0/16 OR DNS.src=172.16.0.0/12 ) AND (DNS.src!="unknown" DNS.query!="unknown" AND DNS.query!="*addr.arpa" AND DNS.query!="*ip6.arpa" AND DNS.query!="*.local") 
 by _time span=1m DNS.src
 | `drop_dm_object_name("DNS")`
-|search count>50
+|search count>20
 | bucket _time AS bucket span=10m
 | eventstats avg(count) as avg_queries stdev(count) AS stdev_queries p50(count) AS p50_queries p90(count) AS p90_queries by bucket src
 | eval z_score=(count-avg_queries)/stdev_queries
-|table _time src  count avg_queries bucket stdev_queries p50_queries p90_queries z_score
 |search z_score>0
-|fit DensityFunction z_score AS IsOutlier
-|search IsOutlier>0 | `potential_suspicious_dns_traffic__filter`'
+|table _time src dest query avg_queries bucket stdev_queries p50_queries p90_queries z_score 
+|fit DensityFunction p50_queries show_density=True dist=norm threshold=0.01 AS IsOutlier
+
+|search IsOutlier>0
+
+|mvexpand query
+| eval SEGMENTS=split(ltrim(query,"."),"."), SEG1=mvindex(SEGMENTS,-1), SEG2=mvjoin(mvindex(SEGMENTS,-2,-1),"."), SEG3=mvjoin(mvindex(SEGMENTS,-3,-1),"."), SEG4=mvjoin(mvindex(SEGMENTS,-4,-1),".")
+|rename SEG2 as domain
+
+|stats count list(query) as queries by _time src avg_queries bucket stdev_queries p50_queries p90_queries z_score domain 
+|eval queries=mvindex(queries, 0, 5)
+
+| search NOT [| inputlookup alexa_lookup_by_str where rank<=10000 | fields + domain]
+| where count>stdev_queries| `potential_suspicious_dns_traffic__filter`'
 how_to_implement: You need to be ingesting network resolution data and have them mapped to CIM. Network resolution can be captured from the wire, DNS server or the endpoint
 known_false_positives: Some services or applications exhibit suspicious DNS traffic
 references:
@@ -44,12 +55,14 @@ tags:
   required_fields:
   - _time
   - src
+  - dest
+  - query
   security_domain: network
   impact: 10
-  confidence: Medium
+  confidence: 10
   severity: medium
   title: Suspicious DNS activity from $src$
-  message: Host $src$ potentially abusing DNS
+  message: Host $src$ potentially abusing DNS for tunneling connecting to $domain$
   # (impact * confidence)/100
   risk_score: 5
   observable:

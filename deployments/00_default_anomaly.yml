@@ -3,7 +3,7 @@ id: a2581d98-09c0-11ed-861d-0242ac120002
 date: '2020-04-27'
 author: dlam
 description: This configuration file applies to all correlation searches that are
-  used for detection
+  used for detection with RBA only
 scheduling:
   cron_schedule: '*/6 * * * *'
   earliest_time: -70m@m
