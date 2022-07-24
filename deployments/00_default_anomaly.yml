@@ -12,6 +12,8 @@ scheduling:
 alert_action:
   rba:
     enabled: 'true'
+    rule_description: '%message%'
+    rule_title: '%title%'    
     nes_fields:
     - user
     - dest

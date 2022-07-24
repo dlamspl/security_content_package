@@ -1,4 +1,4 @@
-name: Potential Network Scanning behavior with outliers
+name: Custom - Potential Network Scanning behavior with outliers
 id: 4595c7de-5bdf-11ec-b3c1-acde48001122
 version: 1
 date: '2021-12-13'
@@ -14,7 +14,7 @@ groupby _time span=1h , All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
 | streamstats sum(dc_port_count) as total_port_count by _time, src, dest
 | streamstats sum(total_port_count) as total_port_count avg(total_port_count) as avg_count stdev(total_port_count) as stdev_count by _time, src, dest
 | stats sum(dc_port_count) as total_port_count  avg(avg_count) as avg_count stdev(stdev_count) as stdev_count by _time, src, dest
-|eval threshold= 5
+|eval threshold= 8
  | eval lowerBound=(avg_count-stdev_count*threshold) 
  | eval upperBound=(avg_count+stdev_count*threshold) 
  | eval isOutlier=if(total_port_count > upperBound , 1, 0)
