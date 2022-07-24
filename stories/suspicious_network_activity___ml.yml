@@ -9,7 +9,7 @@ references:
 - https://attack.mitre.org/datasources/DS0029/
 tags:
   analytic_story:
-  - Suspicious Network Activity - - Behavior
+  - Suspicious Network Activity - Behavior
   category:
   - Adversary Tactics
   product:

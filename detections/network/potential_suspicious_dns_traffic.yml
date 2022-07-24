@@ -1,4 +1,4 @@
-name: Potential suspicious DNS tunneling 
+name: Custom - Potential suspicious DNS tunneling 
 id: 1daef212-09c8-11ed-9e70-acde48001122
 version: 1
 date: '2022-07-22'
@@ -20,16 +20,12 @@ by _time span=1m DNS.src
 |search z_score>0
 |table _time src dest query avg_queries bucket stdev_queries p50_queries p90_queries z_score 
 |fit DensityFunction p50_queries show_density=True dist=norm threshold=0.01 AS IsOutlier
-
 |search IsOutlier>0
-
 |mvexpand query
 | eval SEGMENTS=split(ltrim(query,"."),"."), SEG1=mvindex(SEGMENTS,-1), SEG2=mvjoin(mvindex(SEGMENTS,-2,-1),"."), SEG3=mvjoin(mvindex(SEGMENTS,-3,-1),"."), SEG4=mvjoin(mvindex(SEGMENTS,-4,-1),".")
 |rename SEG2 as domain
-
 |stats count list(query) as queries by _time src avg_queries bucket stdev_queries p50_queries p90_queries z_score domain 
 |eval queries=mvindex(queries, 0, 5)
-
 | search NOT [| inputlookup alexa_lookup_by_str where rank<=10000 | fields + domain]
 | where count>stdev_queries| `potential_suspicious_dns_traffic__filter`'
 how_to_implement: You need to be ingesting network resolution data and have them mapped to CIM. Network resolution can be captured from the wire, DNS server or the endpoint
@@ -55,14 +51,12 @@ tags:
   required_fields:
   - _time
   - src
-  - dest
-  - query
   security_domain: network
   impact: 10
   confidence: 10
   severity: medium
   title: Suspicious DNS activity from $src$
-  message: Host $src$ potentially abusing DNS for tunneling connecting to $domain$
+  message: Host $src$ potentially abusing DNS
   # (impact * confidence)/100
   risk_score: 5
   observable:
