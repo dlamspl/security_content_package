@@ -14,7 +14,7 @@ groupby _time span=1h , All_Traffic.src ,All_Traffic.dest,All_Traffic.dest_port
 | streamstats sum(dc_port_count) as total_port_count by _time, src, dest
 | streamstats sum(total_port_count) as total_port_count avg(total_port_count) as avg_count stdev(total_port_count) as stdev_count by _time, src, dest
 | stats sum(dc_port_count) as total_port_count  avg(avg_count) as avg_count stdev(stdev_count) as stdev_count by _time, src, dest
-|eval threshold= 10
+|eval threshold= 5
  | eval lowerBound=(avg_count-stdev_count*threshold) 
  | eval upperBound=(avg_count+stdev_count*threshold) 
  | eval isOutlier=if(total_port_count > upperBound , 1, 0)
@@ -41,12 +41,11 @@ tags:
   - Splunk Cloud
   required_fields:
   - _time
-  - dest_port
   - dest
   - src
   security_domain: network
   impact: 10
-  confidence: Medium
+  confidence: 10
   severity: medium
   title: Potential network scanning detected from $src$
   message: Potential network scanning detected from $src$ to $dest$ with $total_port_count$ ports within an hour   
