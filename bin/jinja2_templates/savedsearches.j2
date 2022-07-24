@@ -9,7 +9,7 @@
 
 {% for detection in detections %}
 {% if (detection.type == 'TTP' or detection.type == 'Anomaly' or detection.type == 'Hunting' or detection.type == 'Correlation') %}
-[ESCU - {{ detection.name }} - Rule]
+[CUSTOM - {{ detection.name }} - Rule]
 action.escu = 0
 action.escu.enabled = 1
 description = {{ detection.description }}
